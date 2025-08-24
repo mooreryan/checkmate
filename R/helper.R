@@ -1,5 +1,5 @@
 mstop = function(msg, ..., call. = NULL) {
-  stop(simpleError(sprintf(msg, ...), call.))
+  stop(checkmateError(message = sprintf(msg, ...), call = call.))
 }
 
 `%and%` = function(lhs, rhs) {

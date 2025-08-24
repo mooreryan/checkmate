@@ -3,14 +3,16 @@ Type: Package
 Title: Fast and Versatile Argument Checks
 Description: Tests and assertions to perform frequent argument checks. A
     substantial part of the package was written in C to minimize any worries
-    about execution time overhead.
-Version: 2.3.3
+    about execution time overhead. (This is a fork of the original package.)
+Version: 2.3.3-1
 Authors@R: c(
     person("Michel", "Lang", NULL, "michellang@gmail.com",
       role = c("cre", "aut"), comment = c(ORCID = "0000-0001-9754-0393")),
     person("Bernd", "Bischl", NULL, "bernd_bischl@gmx.net", role = "ctb"),
     person("Dénes", "Tóth", NULL, "toth.denes@kogentum.hu", role = "ctb",
-      comment = c(ORCID = "0000-0003-4262-3217"))
+      comment = c(ORCID = "0000-0003-4262-3217")),
+    person("Ryan", "Moore", NULL, "moorer@udel.edu", role = "ctb",
+      comment = c(ORCID = "0000-0003-3337-8184"))
     )
 URL: https://mllg.github.io/checkmate/, https://github.com/mllg/checkmate
 URLNote: https://github.com/mllg/checkmate
@@ -99,6 +101,7 @@ Collate:
     'checkTRUE.R'
     'checkTibble.R'
     'checkVector.R'
+    'checkmateError.R'
     'coalesce.R'
     'isIntegerish.R'
     'matchArg.R'

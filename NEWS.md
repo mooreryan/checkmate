@@ -1,3 +1,14 @@
+# Version 2.3.3-1
+
+* Added new condition class `checkmateError` for assertion failures, with
+  constructors `checkmateError()` and `checkmate_error()` (exported).
+  Conditions inherit from `simpleError`, so generic error handlers (e.g.,
+  `tryCatch(error = ...)`) continue to work. You can now specifically handle
+  assertion failures via `tryCatch(checkmateError = ...)`.
+* Internal helper `mstop()` now raises `checkmateError` instead of
+  `simpleError`. This is fully backwards compatible.
+
+
 # Version 2.3.3
 * Fixed a minor bug in `allMissing()` for complex numbers where either the real
   part or the imaginary part was missing while the other part was not missing

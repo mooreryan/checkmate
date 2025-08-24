@@ -1,3 +1,5 @@
+_Note: This is a fork of the original. It will track upstream except for the specified changes in `NEWS.md`. Version numbers follow the upstream package, with the addition of a `-N` suffix representing releases of the fork. E.g., the first release based on version `2.3.3` of the upstream package is `2.3.3-1`._
+
 # checkmate
 
 [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/checkmate)](https://cran.r-project.org/package=checkmate)

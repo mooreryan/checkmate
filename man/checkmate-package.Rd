@@ -6,7 +6,7 @@
 \alias{checkmate-package}
 \title{checkmate: Fast and Versatile Argument Checks}
 \description{
-Tests and assertions to perform frequent argument checks. A substantial part of the package was written in C to minimize any worries about execution time overhead.
+Tests and assertions to perform frequent argument checks. A substantial part of the package was written in C to minimize any worries about execution time overhead. (This is a fork of the original package.)
 }
 \section{Check scalars}{
 
@@ -146,6 +146,7 @@ Other contributors:
 \itemize{
   \item Bernd Bischl \email{bernd_bischl@gmx.net} [contributor]
   \item Dénes Tóth \email{toth.denes@kogentum.hu} (\href{https://orcid.org/0000-0003-4262-3217}{ORCID}) [contributor]
+  \item Ryan Moore \email{moorer@udel.edu} (\href{https://orcid.org/0000-0003-3337-8184}{ORCID}) [contributor]
 }
 
 }
