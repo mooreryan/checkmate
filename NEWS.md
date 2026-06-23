@@ -10,6 +10,9 @@
 
 
 # Version 2.3.3
+* Removed deprecated calls to internal R functions.
+
+# Version 2.3.3
 * Fixed a minor bug in `allMissing()` for complex numbers where either the real
   part or the imaginary part was missing while the other part was not missing
   (#279).
